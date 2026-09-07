@@ -1,3 +1,13 @@
 geopandas
 matplotlib
 lonboard
+voila
+jupyterlab
+palettable
+geohash2
+ipywidgets
+numpy
+pandas
+pyarrow
+requests
+shapely

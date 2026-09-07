@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Spatial Stories: interactive geospatial examples built with Lonboard and Python.">
+  <title>Spatial Stories</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Spatial Stories home"><span class="brand-mark">◒</span> spatial <span class="brand-muted">/ stories</span></a>
+    <nav><a href="#examples">Examples</a><a href="https://github.com/developmentseed/lonboard" target="_blank" rel="noreferrer">Lonboard ↗</a><a class="github-link" href="https://github.com/aryanxk02/lonboard-examples" target="_blank" rel="noreferrer">GitHub ↗</a></nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">INTERACTIVE GEOSPATIAL NOTEBOOKS</p>
+        <h1>Maps that make<br><em>data feel alive.</em></h1>
+        <p class="lede">A curated collection of Lonboard examples for exploring the world through fast, expressive WebGL maps in Python.</p>
+        <a class="button button-primary" href="#examples">Explore the examples <span>↓</span></a>
+      </div>
+      <div class="hero-art" aria-hidden="true"><div class="orb orb-a"></div><div class="orb orb-b"></div><div class="orb orb-c"></div><div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="coordinate">40.7128° N<br>74.0060° W</div></div>
+    </section>
+
+    <section class="stats" aria-label="Collection summary">
+      <div><strong>05</strong><span>examples</span></div><div><strong>04</strong><span>notebooks</span></div><div><strong>06</strong><span>layer patterns</span></div><div><strong>∞</strong><span>ways to explore</span></div>
+    </section>
+
+    <section class="intro" id="examples">
+      <div><p class="eyebrow">THE COLLECTION</p><h2>Start with a question.</h2></div>
+      <p>Each example pairs a real or realistic dataset with a focused interaction pattern. Read the idea, inspect the pipeline, then open the source and make it yours.</p>
+    </section>
+
+    <section class="filters" aria-label="Filter examples"><button class="filter active" data-filter="all">All examples <span>05</span></button><button class="filter" data-filter="Notebook">Notebooks <span>04</span></button><button class="filter" data-filter="Live data">Live data <span>02</span></button><button class="filter" data-filter="Synthetic">Synthetic <span>01</span></button></section>
+    <section class="example-grid" id="example-grid" aria-live="polite"></section>
+  </main>
+  <footer><div><span class="brand-mark">◒</span> spatial / stories</div><p>Built for curious cartographers.</p><a href="https://github.com/aryanxk02/lonboard-examples" target="_blank" rel="noreferrer">View the source on GitHub ↗</a></footer>
+  <script src="app.js"></script>
+</body>
+</html>
