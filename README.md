@@ -2,7 +2,7 @@
 
 Interactive geospatial stories built with Python, GeoPandas, and [Lonboard](https://github.com/developmentseed/lonboard). The project turns notebook examples into a visual gallery where every story explains its data, code pattern, and interaction model.
 
-**Website:** [Spatial Stories](http://localhost:8000) locally  ·  **Source:** [github.com/aryanxk02/lonboard-examples](https://github.com/aryanxk02/lonboard-examples)
+**Website:** [Spatial Stories](http://localhost:8000) locally  ·  **Source:** [github.com/aryanxk02/SpatialStories](https://github.com/aryanxk02/SpatialStories)
 
 ## What is included
 
@@ -21,8 +21,8 @@ Each notebook includes a short explanation of the data pipeline, the Lonboard la
 Clone the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/aryanxk02/lonboard-examples.git
-cd lonboard-examples
+git clone https://github.com/aryanxk02/SpatialStories.git
+cd SpatialStories
 python3 -m pip install -r requirements.txt
 ```
 
